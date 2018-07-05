@@ -8,15 +8,19 @@ Project template for MUIR stack including:
 
 ## Fetching this template
 
-This template currently uses gitsubmodules. You can clone it recursively using:
+This template currently uses git submodules. You can clone it recursively using:
 
 - `git clone --recurse-submodules https://project.marklogic.com/repo/scm/\~gjosten/muir-vue-template.git {your-app-name}`
 - `cd {your-app-name}`
 
-This gives you the master branch of the template, and its submodules. Use this to get the development branch instead:
+This gives you the `master` branch of the template, and its submodules. Use this to get the `development` branch instead:
 
 - `git clone -b development --recurse-submodules https://project.marklogic.com/repo/scm/\~gjosten/muir-vue-template.git {your-app-name}`
 - `cd {your-app-name}`
+
+Consider running the following once if you suspect there are newer commits to the branches, that you'd like to pull in:
+
+- `git submodule update --remote --rebase`
 
 It is recommended that you 'eject' from the muir code repos after cloning this template, meaning you remove the git tracking from your local copy. You can do that with:
 
@@ -32,15 +36,7 @@ In case you don't eject, you might want to occasionally check for updates, and m
 
 - `git submodule update --remote --rebase`
 
-Or append the name of a submodule in case you like to run it for just one.
-
-The template is still in development, so make sure to checkout dev branch in all modules:
-- `git submodule foreach --recursive git checkout development`
-
-Vue-ui requires a specific feature branch for the middle-tier as well:
-- `cd middle-tier`
-- `git checkout 131-search-filters`
-- `cd /..`
+It will warn for conflicts with local changes. Append the name of a submodule in case you'd like to run it for just one of them.
 
 ## Getting the ui started
 
