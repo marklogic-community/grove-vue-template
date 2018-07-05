@@ -12,14 +12,20 @@ This template currently uses gitsubmodules. You can clone it recursively using:
 
 - `git clone --recurse-submodules https://project.marklogic.com/repo/scm/\~gjosten/muir-vue-template.git {your-app-name}`
 - `cd {your-app-name}`
+
+The template is still in development, so make sure to checkout dev branch in all modules:
+- `git submodule foreach --recursive git checkout development`
+
+Vue-ui requires a specific feature branch for the middle-tier as well:
 - `cd middle-tier`
 - `git checkout 131-search-filters`
-- `cd ../ui`
-- `git checkout MUIR-101-create-page`
 - `cd /..`
-- `rm -rf .git .gitmodules */.git`
 
-After that, consider adding everything as initial commit to a new git repo.
+Consider disconnecting from the MUIR git repos, and initializing a new one for your project:
+- `rm -rf .git .gitmodules */.git`
+- `git init`
+- `git add .`
+- `git commit -m "initial commit"`
 
 Quick steps to get the default vue app up and running:
 
