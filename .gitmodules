@@ -9,4 +9,4 @@
 [submodule "middle-tier"]
 	path = middle-tier
 	url = https://project.marklogic.com/repo/scm/nacw/muir-node.git
-	branch = 131-search-filters
+	branch = development
