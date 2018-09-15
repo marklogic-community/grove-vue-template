@@ -43,7 +43,7 @@ It will warn for conflicts with local changes. Append the name of a submodule in
 Quick steps to get the default vue app up and running:
 
 - `cd marklogic`
-- `echo "mlAppName=my-fancy-app" > gradle.local.properties`
+- `echo "mlAppName=my-fancy-app" > gradle-local.properties`
 - Override host, port, user, pass as needed in there as well
 - `./gradlew mlDeploy loadSampleData`
 
