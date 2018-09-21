@@ -1,10 +1,9 @@
 [submodule "marklogic"]
 	path = marklogic
 	url = https://project.marklogic.com/repo/scm/~gjosten/muir-ml-gradle.git
-[submodule "ui"]
-	path = ui
-	url = https://project.marklogic.com/repo/scm/~gjosten/muir-vue-ui.git
 [submodule "middle-tier"]
 	path = middle-tier
 	url = https://project.marklogic.com/repo/scm/nacw/muir-node.git
-
+[submodule "ui"]
+	path = ui
+	url = https://project.marklogic.com/repo/scm/~gjosten/muir-vue-ui.git
