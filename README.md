@@ -6,7 +6,7 @@ Project template for Grove stack including:
 - grove-node (folder middle-tier)
 - grove-vue-ui (folder ui)
 
-## Create a Project Based on this React-Redux-Node Template
+## Create a Project Based on this Vue Template
 
 Follow [the instructions in the Grove Developer Starters Guide](https://wiki.marklogic.com/display/SAL/Grove+Developer+Starters+Guide) in order to create a new Grove project.
 
