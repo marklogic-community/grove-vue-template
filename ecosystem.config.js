@@ -6,7 +6,7 @@ module.exports = {
       cwd: "./middle-tier/",
       watch: true,
       restart_delay: 4000,
-      env_development: {
+      env: {
         NODE_ENV: "development"
       },
       env_production: {
