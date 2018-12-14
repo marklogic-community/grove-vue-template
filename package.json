@@ -1,6 +1,6 @@
 {
   "name": "grove-vue-template",
-  "version": "0.10.0-beta",
+  "version": "1.0.0-rc.1",
   "description": "Vue template for MarkLogic Grove",
   "main": "index.js",
   "scripts": {
