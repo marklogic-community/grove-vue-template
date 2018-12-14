@@ -1,9 +1,12 @@
 [submodule "marklogic"]
 	path = marklogic
 	url = https://project.marklogic.com/repo/scm/~gjosten/grove-ml-gradle.git
+        branch = development
 [submodule "middle-tier"]
 	path = middle-tier
 	url = https://project.marklogic.com/repo/scm/nacw/grove-node.git
+        branch = development
 [submodule "ui"]
 	path = ui
 	url = https://project.marklogic.com/repo/scm/~gjosten/grove-vue-ui.git
+        branch = development
