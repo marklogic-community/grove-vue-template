@@ -1,8 +1,8 @@
 {
-  "name": "grove-vue-template",
+  "name": "@marklogic-community/grove-vue-template",
   "version": "1.0.0-rc.1",
   "description": "Vue template for MarkLogic Grove",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "build": "cd ui && npm run build",
     "lint": "cd middle-tier && npm run lint; cd ../ui && npm run lint",
@@ -14,10 +14,6 @@
     "middleTier:prod": "cd middle-tier && npm run start:prod",
     "ui": "cd ui && npm start",
     "test": "concurrently 'cd middle-tier && npm test' 'cd ui && npm test'"
-  },
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@project.marklogic.com:7999/~gjosten/grove-vue-template.git"
   },
   "keywords": [
     "MarkLogic",
