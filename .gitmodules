@@ -3,7 +3,7 @@
 	url = https://github.com/marklogic-community/grove-ml-gradle.git
 [submodule "middle-tier"]
 	path = middle-tier
-	url = https://project.marklogic.com/repo/scm/nacw/grove-node.git
+	url = https://github.com/marklogic-community/grove-node.git
 [submodule "ui"]
 	path = ui
-	url = https://project.marklogic.com/repo/scm/~gjosten/grove-vue-ui.git
+	url = https://github.com/marklogic-community/grove-vue-ui.git
