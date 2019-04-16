@@ -8,7 +8,7 @@ Project template for Grove stack including:
 
 ## Create a Project Based on this Vue Template
 
-Follow [the instructions in the Grove Developer Starters Guide](https://wiki.marklogic.com/display/SAL/Grove+Developer+Starters+Guide) in order to create a new Grove project.
+Follow [the instructions in the Grove Getting Started Guide](https://marklogic-community.github.io/grove/guides/getting-started/) in order to create a new Grove project.
 
 When asked which UI you prefer, select "Vue". Follow the in-console instructions to configure and run your application.
 
@@ -35,18 +35,18 @@ To start a development server at `localhost:3000`:
 ### Manual fetching
 
 **Note that preferred way to install this template is using the grove-cli. 
-Follow [the instructions in the Grove Developer Starters Guide](https://wiki.marklogic.com/display/SAL/Grove+Developer+Starters+Guide) in order to create a new Grove project.**
+Follow [the instructions in the Grove Getting Starters Guide](https://marklogic-community.github.io/grove/guides/getting-started/) in order to create a new Grove project using grove-cli.**
 
 These are instructions for manually installing this template.
 
 This template currently uses git submodules. You can clone it recursively using:
 
-- `git clone --recurse-submodules https://project.marklogic.com/repo/scm/\~gjosten/grove-vue-template.git {your-app-name}`
+- `git clone --recurse-submodules https://github.com/marklogic-community/grove-vue-template.git {your-app-name}`
 - `cd {your-app-name}`
 
 This gives you the `master` branch of the template, and its submodules. Use this to get the `development` branch instead:
 
-- `git clone -b development --recurse-submodules https://project.marklogic.com/repo/scm/\~gjosten/grove-vue-template.git {your-app-name}`
+- `git clone -b development --recurse-submodules https://github.com/marklogic-community/grove-vue-template.git {your-app-name}`
 - `cd {your-app-name}`
 
 Consider running the following once if you suspect there are newer commits to the branches, that you'd like to pull in:
