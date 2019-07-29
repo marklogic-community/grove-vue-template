@@ -1,8 +1,8 @@
 {
   "name": "@marklogic-community/grove-vue-template",
-  "version": "1.0.0-rc.1",
+  "version": "1.0.0",
   "description": "Vue template for MarkLogic Grove",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "cd ui && npm run build",
     "lint": "cd middle-tier && npm run lint; cd ../ui && npm run lint",
@@ -29,8 +29,8 @@
       "url": "https://github.com/grtjn"
     },
     {
-      "name": "Patrick McElwee",
-      "url": "https://github.com/patrickmcelwee"
+      "name": "Matt Pileggi",
+      "url": "https://github.com/withjam"
     },
     {
       "name": "Marianne Myers",
